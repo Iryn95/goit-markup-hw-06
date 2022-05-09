@@ -423,7 +423,8 @@ img{
 
 .team-item{
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
+    border-radius: 4px;
+    
     background: #FFFFFF;
 }
 .team .title {
@@ -447,7 +448,7 @@ img{
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    margin-bottom: 30px;
+    margin-bottom: 16px;
 }
 
 .team-desc {
@@ -754,15 +755,15 @@ img{
     padding-top: 60px;
     padding-bottom: 60px;
 
-    max-width: 1600px;
-     background-repeat: no-repeat;
-     background-size: cover;
-     margin: 0 auto;
+    /* max-width: 1600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto; */
    
     /* max-width: 1600px; */
    
     background-color:var(--bg-color);
-    font-style: normal;
+    /* font-style: normal; */
 }
 
 .address .logo{
@@ -871,15 +872,15 @@ img{
   }
 
   .footer-text {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
+    font-family: sans-serif;
+    /* font-style: normal; */
+    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:var(--primary-white-color);
-    align-items: baseline;
+    /* align-items: baseline; */
     margin-bottom: 20px;
   }
 
@@ -925,6 +926,7 @@ img{
     color: var(--direct-color);
   }
 
+
   .footer-input-contact {
     display: flex;
   }
@@ -951,22 +953,22 @@ img{
     transition-property: background-color;
     transition: backgroun 250ms cubic-bezier(0.4,0,0.2,1) */
     display: inline-block;
-    justify-content: center;
-    text-align: center;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
+    /* justify-content: center; */
+    /* text-align: center; */
+    font-family: sans-serif;
+    /* font-style: normal; */
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
-    margin: 0 auto;
-    width: 200px;
+    /* margin: 0 auto; */
+    min-width: 200px;
     height: 50px;
     color: var(--primary-white-color);
     border: var(--accent-color);
     background-color: #188CE8;
     border-radius: 4px;
-    padding: 0;
+    /* padding: 0; */
 
     transition: box-shadow 250ms cubic-bezier(0.4,0,0.2,1)
   }
